@@ -20,6 +20,7 @@
 		26CB80DC246B27DA00FDBCC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CB80DA246B27DA00FDBCC7 /* LaunchScreen.storyboard */; };
 		26CB80E7246B27DA00FDBCC7 /* MoyaExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CB80E6246B27DA00FDBCC7 /* MoyaExampleTests.swift */; };
 		26CB80F3246B2CAD00FDBCC7 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CB80F2246B2CAD00FDBCC7 /* API.swift */; };
+		26E3830124740F9A0092D6D1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3830024740F9A0092D6D1 /* ViewModel.swift */; };
 		3CDE49EC5C5D588F0EF5A208 /* Pods_MoyaExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5C93A30C57DA2622491351 /* Pods_MoyaExample.framework */; };
 		BD9E6EC7AF6EA3E5ED3F5A1A /* Pods_MoyaExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2587C4AF88E6A70A3F1735 /* Pods_MoyaExampleTests.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		26CB80E6246B27DA00FDBCC7 /* MoyaExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaExampleTests.swift; sourceTree = "<group>"; };
 		26CB80E8246B27DA00FDBCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26CB80F2246B2CAD00FDBCC7 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		26E3830024740F9A0092D6D1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		73F54A8E393E334B4477F6C0 /* Pods-MoyaExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaExample.release.xcconfig"; path = "Target Support Files/Pods-MoyaExample/Pods-MoyaExample.release.xcconfig"; sourceTree = "<group>"; };
 		8C2587C4AF88E6A70A3F1735 /* Pods_MoyaExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF8705D044973527F3DB8D3 /* Pods-MoyaExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaExample.debug.xcconfig"; path = "Target Support Files/Pods-MoyaExample/Pods-MoyaExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				26CB80D3246B27D800FDBCC7 /* ViewController.swift */,
+				26E3830024740F9A0092D6D1 /* ViewModel.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E3830124740F9A0092D6D1 /* ViewModel.swift in Sources */,
 				261FB0D324703631002CEC05 /* MovieResponse.swift in Sources */,
 				261FB0D12470354E002CEC05 /* NetworkManager.swift in Sources */,
 				26CB80D4246B27D800FDBCC7 /* ViewController.swift in Sources */,

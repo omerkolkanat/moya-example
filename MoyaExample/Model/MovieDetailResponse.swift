@@ -24,7 +24,7 @@ struct MovieDetailResponse: Codable {
     let spokenLanguages: [SpokenLanguage]?
     let status, tagline, title: String?
     let video: Bool?
-    let voteAverage, voteCount: Int?
+    let voteAverage, voteCount: Double?
 
     enum CodingKeys: String, CodingKey {
         case adult

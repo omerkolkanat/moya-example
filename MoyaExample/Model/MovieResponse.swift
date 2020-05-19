@@ -28,7 +28,6 @@ struct MovieResult: Codable {
     let id: Int?
     let adult: Bool?
     let backdropPath: String?
-    let originalLanguage: OriginalLanguage?
     let originalTitle: String?
     let genreIDS: [Int]?
     let title: String?
@@ -42,7 +41,6 @@ struct MovieResult: Codable {
         case posterPath = "poster_path"
         case id, adult
         case backdropPath = "backdrop_path"
-        case originalLanguage = "original_language"
         case originalTitle = "original_title"
         case genreIDS = "genre_ids"
         case title

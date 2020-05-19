@@ -6,7 +6,6 @@
 //  Copyright © 2020 Omer Kolkanat. All rights reserved.
 //
 
-import Foundation
 import Moya
 
 protocol Networkable {
